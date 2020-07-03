@@ -1,0 +1,8 @@
+/home/huanghui/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Traceback (most recent call last):
+  File "train.py", line 4, in <module>
+    from bleu_cal import bleu
+  File "/home1/huanghui/Transformer/machine_translation/bleu_cal.py", line 1, in <module>
+    from nltk.translate.bleu_score import corpus_bleu
+ModuleNotFoundError: No module named 'nltk'
